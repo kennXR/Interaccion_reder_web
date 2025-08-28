@@ -41,4 +41,4 @@ dibujarCirculo(400, 100);
 //6. Escuchar los movimientos del mouse
 window.addEventListener("mousemove", function(eventData) {
     dibujarCirculo(eventData.x, eventData.y);
-})
+});
